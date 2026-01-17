@@ -11,7 +11,7 @@ import re
 TOKEN = "8443542210:AAESItt1B3EC-YxLVS0sqUqjInQDjRYw_cc"
 API_URL = "https://learn.aakashitutor.com/get/test/syllabus?nid="
 DEFAULT_BATCH_SIZE = 2000  # Increased from 500 to 2000
-OWNER_ID = 8293981933  # Owner Telegram user ID
+OWNER_ID = 7927314662  # Owner Telegram user ID
 
 # === LOGGING ===
 logging.basicConfig(
@@ -590,4 +590,5 @@ async def main():
         await application.shutdown()
 
 if __name__ == "__main__":
+
     asyncio.run(main())

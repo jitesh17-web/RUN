@@ -11,7 +11,7 @@ import re
 TOKEN = "8528972648:AAF91r5jACtN_ACXVEw3F7lYJtb8Y1xlJQw"
 API_URL = "https://learn.aakashitutor.com/get/test/syllabus?nid="
 DEFAULT_BATCH_SIZE = 2000  # Increased from 500 to 2000
-OWNER_ID = 7927314662  # Owner Telegram user ID
+OWNER_ID = 8188515782  # Owner Telegram user ID
 
 # === LOGGING ===
 logging.basicConfig(
@@ -592,4 +592,5 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
 

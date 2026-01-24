@@ -8,7 +8,7 @@ from collections import defaultdict
 import re
 
 # === CONFIG ===
-TOKEN = "8528972648:AAF91r5jACtN_ACXVEw3F7lYJtb8Y1xlJQw"
+TOKEN = "8443542210:AAESItt1B3EC-YxLVS0sqUqjInQDjRYw_cc"
 API_URL = "https://learn.aakashitutor.com/get/test/syllabus?nid="
 DEFAULT_BATCH_SIZE = 2000  # Increased from 500 to 2000
 OWNER_ID = 8188515782  # Owner Telegram user ID
@@ -592,5 +592,6 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
 
 
